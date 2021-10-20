@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <listeners>
+<listener class-name="Qualitest.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="Test1">
+ 
+    <classes>
+      <class name="Qualitest.ValidateTest"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test2">
+      <classes>
+      <class name="Qualitest.ActivityTest"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test3">
+      <classes>
+      <class name="Qualitest.kudosTest"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test4">
+      <classes>
+      <class name="Qualitest.KudosSearchTest"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test5">
+      <classes>
+      <class name="Qualitest.OtherTest"/>
+      </classes>
+      </test>
+      <test thread-count="5" name="Test6">
+      <classes>
+      <class name="Qualitest.InvalidTest"/>
+    </classes>
+  </test> 
+</suite> 
